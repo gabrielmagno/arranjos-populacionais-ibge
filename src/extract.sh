@@ -7,7 +7,7 @@ indir="./raw"
 infile="${indir}/publicacao.pdf"
 
 outdir="./data"
-outfile="${outdir}/aglomerados-raw.csv"
+outfile="${outdir}/arranjos-raw.csv"
 
 java -jar "${binfile}" --area %13,0,100,29 --pages 72-96 "${infile}" > "${outfile}"
 java -jar "${binfile}" --area %13,0,56,29 --pages 97 "${infile}" >> "${outfile}"
